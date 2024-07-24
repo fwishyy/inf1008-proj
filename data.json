@@ -1,0 +1,473 @@
+[
+    {
+        "created_time": "2024-07-20 06:47:38",
+        "ips": [
+            "196.127.164.213:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#NetSupportRAT",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:35",
+        "ips": [
+            "85.208.108.134:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#DanaBot",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:29",
+        "ips": [
+            "192.227.190.133:8888"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#AsyncRAT",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:25",
+        "ips": [
+            "47.238.53.31:8888"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#AsyncRAT",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:21",
+        "ips": [
+            "194.26.192.132:6666"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#AsyncRAT",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:11",
+        "ips": [
+            "137.220.35.29:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Interactsh",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:47:00",
+        "ips": [
+            "51.15.67.213:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Interactsh",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:58",
+        "ips": [
+            "51.15.67.213:25"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Interactsh",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:47",
+        "ips": [
+            "91.92.240.72:80"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Hookbot",
+            "#Pegasus",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:32",
+        "ips": [
+            "112.124.23.104:8888"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Supershell",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:27",
+        "ips": [
+            "46.246.82.17:8000"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#DcRat",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:22",
+        "ips": [
+            "216.137.231.20:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Qakbot",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:12",
+        "ips": [
+            "82.180.133.1:80"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Havoc",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:08",
+        "ips": [
+            "103.185.44.231:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Havoc",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:46:01",
+        "ips": [
+            "217.69.14.240:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Bianlian",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:45:28",
+        "ips": [
+            "154.7.181.55:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Deimos",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 06:45:25",
+        "ips": [
+            "87.122.9.173:443"
+        ],
+        "domains": [],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#c2",
+            "#Deimos",
+            "#unverified"
+        ]
+    },
+    {
+        "created_time": "2024-07-20 03:46:33",
+        "ips": [
+            "20.83.148.22:8000",
+            "20.83.148.22"
+        ],
+        "domains": "20.83.148.22,/s/ref=nb_sb_noss_1/167-3294888-0262949/field-keywords=cars",
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#C2",
+            "#cobaltstrike"
+        ]
+    },
+    {
+        "created_time": "2024-07-19 22:16:09",
+        "ips": [
+            "82.152.164.236:443",
+            "82.152.164.236"
+        ],
+        "domains": "82.152.164.236,/load",
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#C2",
+            "#cobaltstrike"
+        ]
+    },
+    {
+        "created_time": "2024-07-19 22:16:05",
+        "ips": [
+            "20.83.148.22:8000",
+            "20.83.148.22"
+        ],
+        "domains": "20.83.148.22,/LSnmkxT/",
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#C2",
+            "#cobaltstrike"
+        ]
+    },
+    {
+        "created_time": "2024-07-03 02:08:37",
+        "ips": [
+            "118.194.239.90",
+            "158.247.243.38",
+            "152.32.139.70",
+            "103.218.240.213",
+            "103.45.68.125",
+            "144.91.66.12",
+            "152.32.243.122"
+        ],
+        "domains": [
+            "kz-news.site",
+            "kaztelecom.shop"
+        ],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#RedFoxtrot",
+            "#NomadPanda",
+            "#APT",
+            "#PlugX",
+            "#RAT",
+            "#Malware",
+            "#ioc"
+        ]
+    },
+    {
+        "created_time": "2024-06-26 02:51:58",
+        "ips": [],
+        "domains": [],
+        "sha256_hashes": [
+            "9de541b039cfdb96c7810df49efd958b28cc2df73e314f67c1a91469a2b19796"
+        ],
+        "md5_hashes": [],
+        "tags": [
+            "#Kimsuky",
+            "#APT",
+            "#Censys",
+            "#Malware",
+            "#ioc"
+        ]
+    },
+    {
+        "created_time": "2024-06-07 02:17:25",
+        "ips": [
+            "185.196.10.80"
+        ],
+        "domains": [
+            "6C4JcXPjsn.investigationreport.info",
+            "JiqlTALZQ9.reportscases.info",
+            "x6xzl6FllP.reportscases.info",
+            "20Bf1pIzWV.reportscases.info"
+        ],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#SideCopy",
+            "#APT",
+            "#Malware",
+            "#ioc"
+        ]
+    },
+    {
+        "created_time": "2024-06-04 01:51:11",
+        "ips": [],
+        "domains": [],
+        "sha256_hashes": [
+            "29298e562ed96657efcb840c0a4539eb78e550b87d3bf2978d2eee1df4706542"
+        ],
+        "md5_hashes": [],
+        "tags": [
+            "#Censys",
+            "#Redline",
+            "#Stealer"
+        ]
+    },
+    {
+        "created_time": "2024-06-03 02:33:52",
+        "ips": [],
+        "domains": [],
+        "sha256_hashes": [
+            "14309ae76fa5485d6498b8cda9c17e4f9e0e0a58a4fe98c47656b80bc5e6bc09"
+        ],
+        "md5_hashes": [],
+        "tags": [
+            "#Kimsuky",
+            "#APT",
+            "#Censys",
+            "#Malware",
+            "#ioc"
+        ]
+    },
+    {
+        "created_time": "2024-05-29 07:16:42",
+        "ips": [
+            "104.223.106.8:11248"
+        ],
+        "domains": [
+            "iobv.exe",
+            "waqers.duckdns.org"
+        ],
+        "sha256_hashes": [],
+        "md5_hashes": [
+            "e6f4bb8ed235f43cb738447fbf1757c3"
+        ],
+        "tags": [
+            "#APT36",
+            "#TransparentTribe",
+            "#CrimsonRAT",
+            "#Malware",
+            "#ioc"
+        ]
+    },
+    {
+        "created_time": "2024-05-14 10:53:11",
+        "ips": [],
+        "domains": [
+            "https://mod.gov.in.reportdetails.info/publications",
+            "www.mod.gov.in.reportdetails.info",
+            "mod.gov.in.reportdetails.info"
+        ],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#SideCopy",
+            "#APT"
+        ]
+    },
+    {
+        "created_time": "2024-04-24 04:03:14",
+        "ips": [
+            "147.124.212.89",
+            "147.124.214.129",
+            "147.124.214.131",
+            "147.124.214.237",
+            "67.203.7.171",
+            "67.203.7.245"
+        ],
+        "domains": [],
+        "sha256_hashes": [
+            "e74dc1314bdb5dee30e2882734167dbdb82667346a54d38170212c953787b08c"
+        ],
+        "md5_hashes": [],
+        "tags": [
+            "#Censys",
+            "#Lazarus",
+            "#APT",
+            "#Malware",
+            "#ioc",
+            "#CTI"
+        ]
+    },
+    {
+        "created_time": "2024-04-22 09:50:34",
+        "ips": [],
+        "domains": [],
+        "sha256_hashes": [
+            "63cec050a698976eef2f389ba54e27b58034b391e4f5691c06e1dec349f4a736"
+        ],
+        "md5_hashes": [],
+        "tags": [
+            "#Censys",
+            "#Kimsuky",
+            "#APT",
+            "#Malware"
+        ]
+    },
+    {
+        "created_time": "2024-04-19 06:13:20",
+        "ips": [],
+        "domains": [
+            "indiabsnl.com",
+            "indiabsnl.in",
+            "isronrsc.giize.com",
+            "mail.indiabsnl.in",
+            "www.isrosdsc.camdvr.org",
+            "sts.isronrsc.giize.com"
+        ],
+        "sha256_hashes": [],
+        "md5_hashes": [],
+        "tags": [
+            "#China",
+            "#RedFoxTrot",
+            "#APT",
+            "#NomadPanda",
+            "#BSNL",
+            "#ISRO"
+        ]
+    }
+]
