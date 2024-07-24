@@ -3,6 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from attackcti import attack_client
 from IOC import IOC
+import configparser
 
 # hardcoded for now
 DATABASE_NAME = 'data.json'
@@ -28,7 +29,14 @@ def degree_centrality_analysis(G):
 def main():
     data_json = load_from_json(DATABASE_NAME)
     apt_targets_json = load_from_json('apt_targets.json')
-    
+
+    # read from config file
+    config = configparser.ConfigParser()
+    config.read('graph.conf')
+    nodes = dict(config.items('nodes'))
+    edges = dict(config.items('edges'))
+    filters = dict(config.items('filter'))
+
     # lookup table for apt aliases
     apt_lookup = {}
 
@@ -43,28 +51,35 @@ def main():
     # create a knowledge graph
     G = nx.DiGraph()
     for entry in data_json:
-
+        
         # each entry can have different types of IOCs: hash, ip, domains
-        sha256_hashes = entry.get('sha256_hashes', [])
-        md5_hashes = entry.get('md5_hashes', [])
-        ip_addresses = entry.get('ips', [])
+        # sha256_hashes = entry.get('sha256_hashes', [])
+        # md5_hashes = entry.get('md5_hashes', [])
+        # ip_addresses = entry.get('ips', [])
 
         iocs = []
 
-        for hash in sha256_hashes:
-            ioc = IOC(name=hash, type='sha256 hash', created_date=entry.get('created_time'))
-            IOC_TABLE[ioc.name] = ioc
-            iocs.append(ioc)
+        # for hash in sha256_hashes:
+        #     ioc = IOC(name=hash, type='sha256 hash', created_date=entry.get('created_time'))
+        #     IOC_TABLE[ioc.name] = ioc
+        #     iocs.append(ioc)
         
-        for hash in md5_hashes:
-            ioc = IOC(name=hash, type='md5 hash', created_date=entry.get('created_time'))
-            IOC_TABLE[ioc.name] = ioc
-            iocs.append(ioc)
+        # for hash in md5_hashes:
+        #     ioc = IOC(name=hash, type='md5 hash', created_date=entry.get('created_time'))
+        #     IOC_TABLE[ioc.name] = ioc
+        #     iocs.append(ioc)
         
-        for ip in ip_addresses:
-            ioc = IOC(name=ip, type='ip address', created_date=entry.get('created_time'))
-            IOC_TABLE[ioc.name] = ioc
-            iocs.append(ioc)
+        # for ip in ip_addresses:
+        #     ioc = IOC(name=ip, type='ip address', created_date=entry.get('created_time'))
+        #     IOC_TABLE[ioc.name] = ioc
+        #     iocs.append(ioc)
+
+        # get all required data per entry as configured in graph.conf 
+        for key in nodes:
+            for data in entry.get(nodes[key]):
+                ioc = IOC(name=data, type=nodes[key])
+                IOC_TABLE[ioc.name] = ioc
+                iocs.append(ioc)
 
         for idx, ioc in enumerate(iocs):
             # associate tags with only the first IOC to reduce clutter
@@ -82,6 +97,8 @@ def main():
             else:
                 # add edge between ioc and previous ioc
                 G.add_edge(iocs[0].name, ioc.name)
+        
+        #TODO: how to filter?
 
     print(f'Number of IOC entries: {len(IOC_TABLE)}')
 
