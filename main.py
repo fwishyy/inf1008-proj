@@ -81,24 +81,31 @@ def main():
                 IOC_TABLE[ioc.name] = ioc
                 iocs.append(ioc)
 
-        for idx, ioc in enumerate(iocs):
-            # associate tags with only the first IOC to reduce clutter
-            if idx == 0:
-                for tag in entry.get('tags'):
-                    # add edge between ioc and tag
-                    G.add_edge(ioc.name, tag)
-                    if tag in apt_lookup:
-                        # resolve common name for aliases
-                        apt_common_name = apt_lookup[tag]
-                        for country in apt_targets[apt_common_name]:
-                            # establish relationship between APT and countries targeted
-                            G.add_edge(tag, country, label='targets')
-            # associate the rest of the IOCs with the first IOC
-            else:
-                # add edge between ioc and previous ioc
-                G.add_edge(iocs[0].name, ioc.name)
+        # for idx, ioc in enumerate(iocs):
+        #     # associate tags with only the first IOC to reduce clutter
+        #     if idx == 0:
+        #         print(f'ioc name: {ioc.name}')
+        #         for tag in entry.get('tags'):
+        #             # add edge between ioc and tag
+        #             tag = tag.replace('#','')
+        #             # G.add_edge(ioc.name, tag)
+        #             if tag in apt_lookup:
+        #                 # resolve common name for aliases
+        #                 apt_common_name = apt_lookup[tag]
+        #                 for country in apt_targets[apt_common_name]:
+        #                     # establish relationship between APT and countries targeted
+        #                     G.add_edge(tag, country, label='targets')
+        #     # associate the rest of the IOCs with the first IOC
+        #     # else:
+        #     #     # add edge between ioc and previous ioc
+        #     #     G.add_edge(iocs[0].name, ioc.name)
         
         #TODO: how to filter?
+        filter_list = []
+        filter_name = filters['filter']
+        for idx, ioc in enumerate(iocs):
+            if filter_name == ioc.name:
+                pass
 
     print(f'Number of IOC entries: {len(IOC_TABLE)}')
 
